@@ -1,4 +1,4 @@
-MyFirstVector <- c(3, 45, 56, 734)
+MyFirstVector <- c(3, 45, 56, 734)  #combine
 MyFirstVector
 
 is.numeric(MyFirstVector) #TRUE
@@ -20,7 +20,7 @@ is.numeric(v3)
 
 
 #sequence - like ':'
-seq(1,15) #it gives more flexibility
+seq(1,15) #it gives more flexibility than 1:15
 1:15
 
 z <- seq(1, 15, 2) #gives numbers between 1 and 15 with step size 2
@@ -30,3 +30,10 @@ z
 rep(3, 10) # creates number 3 for 10 times
 d <- rep(3, 16)
 
+# replicate a char
+rep("a", 5)
+
+
+# replicate a vector
+x <- c(80, 20)
+y <- rep(x, 5)
