@@ -15,7 +15,7 @@ seq(from=10, to=20, along.with=x) #it takes the length of x and writes that many
 rep(5, times=10)
 rep(5, 10)
 
-rep(5:7, times=5) #it prints 5 6 7 5 6 7 5 6 7 5 6 7 5 6 7
+rep(5:7, times = 5) #it prints 5 6 7 5 6 7 5 6 7 5 6 7 5 6 7
 
 rep(5:7, each = 5) #it prints 5 5 5 5 5 6 6 6 6 6 7 7 7 7 7
 
